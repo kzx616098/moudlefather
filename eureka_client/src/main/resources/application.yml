@@ -1,0 +1,10 @@
+server:
+  port: 10086
+spring:
+  application:
+    name: eureka_client
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhaost:10010/eureka
